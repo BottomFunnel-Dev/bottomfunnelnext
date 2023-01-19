@@ -1,0 +1,59 @@
+.DataScienceUniqueContainer {
+  width: 90%;
+  margin: 2% auto 2% auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.DataScienceUniqueContent {
+  padding: 2%;
+  width: 50%;
+}
+
+.DataScienceUniqueContent > h1 {
+  font-size: 32px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.DataScienceUniqueContent > p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.DataScienceBFContainer {
+  width: 40%;
+  height: fit-content;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.DataScienceBFContainer > img {
+  width: 80%;
+}
+
+.DataScienceUniqueHrLine {
+  width: 30%;
+  margin: 1% 0 1% 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DataScienceUniqueHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.DataScienceUniqueHrLine > span {
+  width: 42%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

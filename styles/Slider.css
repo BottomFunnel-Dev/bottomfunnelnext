@@ -1,0 +1,834 @@
+/* this css file is for the cryptodevpage slider file */
+.CryptoDevSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.CryptoDevSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.CryptoDevSliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.CryptoDevSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevSliderHrLine > div {
+  border: 2px solid #bf42b9;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.CryptoDevSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #bf42b9;
+  color: #bf42b9;
+}
+
+.CryptoDevSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CryptoDevSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.CryptoDevSlider-slide > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CryptoDevSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.CryptoDevSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CryptoDevSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.CryptoDevSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.CryptoDevSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* this css is for the business intelligence(BI page) slider */
+.BISliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.BISliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.BISliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.BISliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BISliderHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.BISliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.BISlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BISlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.BISlider-slide > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.BISliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.BISliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BISliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.BISliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.BISliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* /this css file is for the enterprise solutions(EnterpriseWebPage) slider file */
+.EnterpriseSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.EnterpriseSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.EnterpriseSliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.EnterpriseSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.EnterpriseSliderHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.EnterpriseSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.EnterpriseSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EnterpriseSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.EnterpriseSlider-slide > img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.EnterpriseSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.EnterpriseSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EnterpriseSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.EnterpriseSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.EnterpriseSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* This css file is for the virtual reality(VRPage) slider comps */
+.VRSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.VRSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.VRSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.VRSliderHrLine > div {
+  border: 2px solid #bf42b9;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.VRSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #bf42b9;
+  color: #bf42b9;
+}
+
+.VRSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VRSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.VRSlider-slide > img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.VRSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.VRSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VRSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.VRSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.VRSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* this is the css file code for the custom-web-solutions
+(CustomWebSlider) */
+
+.CustomWebSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.CustomWebSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.CustomWebSliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.CustomWebSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CustomWebSliderHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.CustomWebSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.CustomWebSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CustomWebSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.CustomWebSlider-slide > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CustomWebSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.CustomWebSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CustomWebSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.CustomWebSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.CustomWebSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* this css is from the data-science page(DataScienceSlider) */
+.DataScienceSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.DataScienceSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.DataScienceSliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.DataScienceSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DataScienceSliderHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.DataScienceSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.DataScienceSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DataScienceSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.DataScienceSlider-slide > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.DataScienceSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.DataScienceSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DataScienceSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.DataScienceSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.DataScienceSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* this css file is for the form of the seo main page in the services section */
+._SeoMain1 {
+  height: auto;
+  width: 100%;
+  background: url("/Images/seopages/seo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom;
+  background-origin: border-box;
+  position: relative;
+  margin-top: 70px;
+}
+
+.gifDenote {
+  width: 230px;
+  height: 400px;
+  position: absolute;
+  top: 32%;
+  right: 34%;
+}
+.gifDenote > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+._Seoupperdiv {
+  display: flex;
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 100vh;
+  background: none !important;
+}
+._Seotext {
+  /* border:1px solid white; */
+  width: 40%;
+  color: black;
+  box-sizing: border-box;
+  margin: auto;
+  margin-left: 80px;
+  /* text-align: center; */
+}
+._Seoparagraph {
+  /* border:1px solid white; */
+  color: gray;
+  font-weight: 400;
+  width: 100%;
+  color: black;
+  line-height: 1.5;
+  font-size: 16px;
+}
+._Seoheading {
+  /* border:1px solid white; */
+  margin-bottom: 10px;
+  color: #605d5d;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  /* text-align: left; */
+}
+._Seoheading + div {
+  font-size: 18px;
+  /* text-align: left; */
+}
+._Seoform {
+  /* border:1px solid red; */
+  width: 42%;
+  height: 100%;
+}
+._Seoformcontent {
+  border: 1px solid white;
+  width: 450px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 40px rgb(0 0 0 / 15%);
+  margin: auto;
+  margin-top: 30px;
+}
+._Seoformheading {
+  /* border: 1px solid red; */
+  /* border-radius: 35px; */
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  color: #605d5d;
+}
+
+._Seoenterform {
+  /* border:1px solid red; */
+  width: 85%;
+  height: 440px;
+  margin: auto;
+  margin-top: 20px;
+}
+._seoforminput {
+  border: 1px solid #393939;
+  font-size: 15px;
+  border-radius: 4px;
+
+  margin-top: 10px;
+  /* outline: #EF4C23; */
+  padding: 7px 10px;
+  width: 100%;
+  color: gray;
+  font-weight: 400;
+}
+/* ._seoforminput ~ label {
+    color: #ef4c23;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 4px;
+  } */
+.Seoforminput:hover {
+  outline-color: #ef4c23;
+}
+/* label ~ select {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 6px 7px;
+  
+    color: gray;
+    margin-top: 12px;
+    border: 1px solid #393939;
+  } */
+._SeoSubmitbutton {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  padding: 20px 0;
+}
+._SeoSubmitbutton > button {
+  font-size: 18px;
+  background-color: #ef4c23;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 7px 60px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+._SeoSubmitbutton > button:hover {
+  color: #ef4c23;
+  background-color: white;
+  transition: 0.2s linear;
+}
+._Seochkpricing {
+  text-align: center;
+  background-color: #ef4c23;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 10px 60px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+._Seochkpricing:hover {
+  color: #ef4c23;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
